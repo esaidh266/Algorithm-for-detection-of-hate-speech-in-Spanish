@@ -61,20 +61,20 @@ The folder structure with the GitHub documentation is presented below:
 
 The content of each file is detailed below:
 
-- DOCUMENTACIÓN GITHUB.docx:
-Report that presents the example of the script (1).py and get_characteristics (1).py to use the models.
+	- DOCUMENTACIÓN GITHUB.docx:
+	Report that presents the example of the script (1).py and get_characteristics (1).py to use the models.
 
-- ejemplo (1).py:
-Python script showing the use of models to make predictions.
+	- ejemplo (1).py:
+	Python script showing the use of models to make predictions.
 
-- Modelo_binario_(1) (1).ipnyb:
-Notebook with the code used for training the different models.
+	- Modelo_binario_(1) (1).ipnyb:
+	Notebook with the code used for training the different models.
 
-- obtener_caracteristicas (1).py:
-Python script with the preprocessing functions used before using the models to predict the inputs of a data frame.
+	- Obtener_caracteristicas (1).py:
+	Python script with the preprocessing functions used before using the models to predict the inputs of a data frame.
 
-- Recursos-20231027T110710Z-001 (1).zip:
-The resources folder contains 3 .csv used in feature extraction.
+	- Recursos-20231027T110710Z-001 (1).zip:
+	The resources folder contains 3 .csv used in feature extraction.
 
 The dataset that has been used for training the models is dataset_completo_caracteristicas_ampliadas_todos_combinaciones_v1_textoProcesado.csv
 (https://acortar.link/diSV7o)
