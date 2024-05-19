@@ -79,6 +79,40 @@ The content of each file is detailed below:
 The dataset that has been used for training the models is dataset_completo_caracteristicas_ampliadas_todos_combinaciones_v1_textoProcesado.csv
 (https://acortar.link/diSV7o)
 
+The Algorithm was developed from the tests of applied models shown below:
+
+        MODELS
+         ├── 70-30
+         │   ├── CART_binario_70-30.joblib
+         │   ├── GB_binario_70-30.joblib
+         │   ├── MLP_binario_70-30.joblib
+         │   ├── NB_binario_70-30.joblib
+         │   ├── RF_binario_70-30.joblib
+         │   └── SVM_binario_70-30.joblib
+         ├── 80-20
+         │   ├── CART_binario_80-20.joblib
+         │   ├── GB_binario_80-20.joblib
+         │   ├── MLP_binario_80-20.joblib
+         │   ├── NB_binario_80-20.joblib
+         │   ├── RF_binario_80-20.joblib
+         │   └── SVM_binario_80-20.joblib
+         └── 90-10
+             ├── CART_binario_90-10.joblib
+             ├── GB_binario_90-10.joblib
+             ├── MLP_binario_90-10.joblib
+             ├── NB_binario_90-10.joblib
+             ├── RF_binario_90-10.joblib
+             └── SVM_binario_90-10.joblib
+
+In folders 70-30, 80-20 and 90-10, we can find the different models already trained with the respective percentages of train and test.
+
+Results and comparisons generated during the training and validation process of the final model used for the development of the algorithm are shared in the document Comparativa_V2.xlsx; y Explicación variación resultados Odio_No odio V2.pdf (Por publicar)
+
+The procedure for training the models is reflected in Informe final Fase 1 - Odio y no odio.docx (Por publicar).
+The dataset used for training is dataset_completo_caracteristicas_ampliadas_todas_combinaciones_v1_textoProcesado.csv (https://acortar.link/diSV7o)
+
+As documentation, in the folder "02 Documentación Github/00_Odio y no odio", the report "DOCUMENTACIÓN GITHUB.docx" explains the use of the different training models for making predictions.
+
 ---
 
 La estructura de carpetas con la documentación de Github es la presentada a continuación:
@@ -110,3 +144,38 @@ Se detalla a continuación el contenido de cada fichero:
 
 El dataset que se ha utilizado para el entrenamiento de los modelos es dataset_completo_caracteristicas_ampliadas_todas_combinaciones_v1_textoProcesado.csv 
 (https://acortar.link/diSV7o)
+
+El Algoritmo se desarrolló, a partir de las pruebas de modelos aplicados que se muestran a continuación:
+
+        MODELOS
+         ├── 70-30
+         │   ├── CART_binario_70-30.joblib
+         │   ├── GB_binario_70-30.joblib
+         │   ├── MLP_binario_70-30.joblib
+         │   ├── NB_binario_70-30.joblib
+         │   ├── RF_binario_70-30.joblib
+         │   └── SVM_binario_70-30.joblib
+         ├── 80-20
+         │   ├── CART_binario_80-20.joblib
+         │   ├── GB_binario_80-20.joblib
+         │   ├── MLP_binario_80-20.joblib
+         │   ├── NB_binario_80-20.joblib
+         │   ├── RF_binario_80-20.joblib
+         │   └── SVM_binario_80-20.joblib
+         └── 90-10
+             ├── CART_binario_90-10.joblib
+             ├── GB_binario_90-10.joblib
+             ├── MLP_binario_90-10.joblib
+             ├── NB_binario_90-10.joblib
+             ├── RF_binario_90-10.joblib
+             └── SVM_binario_90-10.joblib
+
+En las carpetas 70-30, 80-20 y 90-10 podemos encontrar los distintos modelos ya entrenados con los respectivos porcentajes de train y test.
+
+Se comparte resultados y comparativas generados durante el proceso de entrenamiento y validación de modelo final usado para el desarrollo del algoritmo, en documento Comparativa_V2.xlsx; y Explicación variación resultados Odio_No odio V2.pdf (Por publicar)
+
+El procedimiento seguido para realizar el entrenamiento de los modelos queda reflejado en el Informe final Fase 1 - Odio y no odio.docx (Por publicar).
+El dataset utilizado para el entrenamiento es dataset_completo_caracteristicas_ampliadas_todas_combinaciones_v1_textoProcesado.csv (https://acortar.link/diSV7o)
+
+A modo de documentación, en la carpeta "02 Documentación Github/00_Odio y no odio", el informe "DOCUMENTACIÓN GITHUB.docx" explica el uso de los distintos modelos entreandos para la realización de predicciones.
+
