@@ -5,13 +5,13 @@ Por favor lea el documento README IN SPANISH, en el que se expone todos los paso
 
 La estructura de carpetas con la documentación de Github es la presentada a continuación:
 
-        02 Documentación Github
-         └── 00_Odio y no odio
-             ├── DOCUMENTACIÓN GITHUB.docx
-             ├── ejemplo (1).py
-             ├── Modelo_binario_ (1) (1).ipynb
-             ├── obtener_caracteristicas (1).py
-             └── Recursos-20231027T110710Z-001 (1).zip
+        02 Documentación Github
+         └── 00_Odio y no odio
+             ├── DOCUMENTACIÓN GITHUB.docx
+             ├── ejemplo (1).py
+             ├── Modelo_binario_ (1) (1).ipynb
+             ├── obtener_caracteristicas (1).py
+             └── Recursos-20231027T110710Z-001 (1).zip
 
 Se detalla a continuación el contenido de cada fichero:
 
@@ -35,28 +35,28 @@ El dataset que se ha utilizado para el entrenamiento de los modelos es dataset_c
 
 El Algoritmo se desarrolló, a partir de las pruebas de modelos aplicados que se muestran a continuación:
 
-        MODELOS
-         ├── 70-30
-         │   ├── CART_binario_70-30.joblib
-         │   ├── GB_binario_70-30.joblib
-         │   ├── MLP_binario_70-30.joblib
-         │   ├── NB_binario_70-30.joblib
-         │   ├── RF_binario_70-30.joblib
-         │   └── SVM_binario_70-30.joblib
-         ├── 80-20
-         │   ├── CART_binario_80-20.joblib
-         │   ├── GB_binario_80-20.joblib
-         │   ├── MLP_binario_80-20.joblib
-         │   ├── NB_binario_80-20.joblib
-         │   ├── RF_binario_80-20.joblib
-         │   └── SVM_binario_80-20.joblib
-         └── 90-10
-             ├── CART_binario_90-10.joblib
-             ├── GB_binario_90-10.joblib
-             ├── MLP_binario_90-10.joblib
-             ├── NB_binario_90-10.joblib
-             ├── RF_binario_90-10.joblib
-             └── SVM_binario_90-10.joblib
+        MODELOS
+         ├── 70-30
+         │   ├── CART_binario_70-30.joblib
+         │   ├── GB_binario_70-30.joblib
+         │   ├── MLP_binario_70-30.joblib
+         │   ├── NB_binario_70-30.joblib
+         │   ├── RF_binario_70-30.joblib
+         │   └── SVM_binario_70-30.joblib
+         ├── 80-20
+         │   ├── CART_binario_80-20.joblib
+         │   ├── GB_binario_80-20.joblib
+         │   ├── MLP_binario_80-20.joblib
+         │   ├── NB_binario_80-20.joblib
+         │   ├── RF_binario_80-20.joblib
+         │   └── SVM_binario_80-20.joblib
+         └── 90-10
+             ├── CART_binario_90-10.joblib
+             ├── GB_binario_90-10.joblib
+             ├── MLP_binario_90-10.joblib
+             ├── NB_binario_90-10.joblib
+             ├── RF_binario_90-10.joblib
+             └── SVM_binario_90-10.joblib
 
 En las carpetas 70-30, 80-20 y 90-10 podemos encontrar los distintos modelos ya entrenados con los respectivos porcentajes de train y test.
 
@@ -91,13 +91,13 @@ Please read README IN SPANISH, which outlines all the steps to follow to use the
 
 The folder structure with the GitHub documentation is presented below:
 
-        02 Documentación Github
-         └── 00_Odio y no odio
-             ├── DOCUMENTACIÓN GITHUB.docx
-             ├── ejemplo (1).py
-             ├── Modelo_binario_ (1) (1).ipynb
-             ├── obtener_caracteristicas (1).py
-             └── Recursos-20231027T110710Z-001 (1).zip
+        02 Documentación Github
+         └── 00_Odio y no odio
+             ├── DOCUMENTACIÓN GITHUB.docx
+             ├── ejemplo (1).py
+             ├── Modelo_binario_ (1) (1).ipynb
+             ├── obtener_caracteristicas (1).py
+             └── Recursos-20231027T110710Z-001 (1).zip
 
 The content of each file is detailed below:
 
@@ -121,28 +121,28 @@ The dataset that has been used for training the models is dataset_completo_carac
 
 The Algorithm was developed from the tests of applied models shown below:
 
-        MODELS
-         ├── 70-30
-         │   ├── CART_binario_70-30.joblib
-         │   ├── GB_binario_70-30.joblib
-         │   ├── MLP_binario_70-30.joblib
-         │   ├── NB_binario_70-30.joblib
-         │   ├── RF_binario_70-30.joblib
-         │   └── SVM_binario_70-30.joblib
-         ├── 80-20
-         │   ├── CART_binario_80-20.joblib
-         │   ├── GB_binario_80-20.joblib
-         │   ├── MLP_binario_80-20.joblib
-         │   ├── NB_binario_80-20.joblib
-         │   ├── RF_binario_80-20.joblib
-         │   └── SVM_binario_80-20.joblib
-         └── 90-10
-             ├── CART_binario_90-10.joblib
-             ├── GB_binario_90-10.joblib
-             ├── MLP_binario_90-10.joblib
-             ├── NB_binario_90-10.joblib
-             ├── RF_binario_90-10.joblib
-             └── SVM_binario_90-10.joblib
+        MODELS
+         ├── 70-30
+         │   ├── CART_binario_70-30.joblib
+         │   ├── GB_binario_70-30.joblib
+         │   ├── MLP_binario_70-30.joblib
+         │   ├── NB_binario_70-30.joblib
+         │   ├── RF_binario_70-30.joblib
+         │   └── SVM_binario_70-30.joblib
+         ├── 80-20
+         │   ├── CART_binario_80-20.joblib
+         │   ├── GB_binario_80-20.joblib
+         │   ├── MLP_binario_80-20.joblib
+         │   ├── NB_binario_80-20.joblib
+         │   ├── RF_binario_80-20.joblib
+         │   └── SVM_binario_80-20.joblib
+         └── 90-10
+             ├── CART_binario_90-10.joblib
+             ├── GB_binario_90-10.joblib
+             ├── MLP_binario_90-10.joblib
+             ├── NB_binario_90-10.joblib
+             ├── RF_binario_90-10.joblib
+             └── SVM_binario_90-10.joblib
 
 In folders 70-30, 80-20 and 90-10, we can find the different models already trained with the respective percentages of train and test.
 
