@@ -1,5 +1,5 @@
 # Algorithm-for-detection-of-hate-speech-in-Spanish
-Algoritmo de clasificación de expresiones de odio en mensajes en español. Este algoritmo fue desarrollado en el marco del proyecto Hatemedia (PID2020-114584GB-I00), financiado por MCIN/AEI /10.13039/501100011033, con la colaboración de Possible Inc.
+Algoritmo de detección de expresiones de odio en español. Este algoritmo fue desarrollado en el marco del proyecto Hatemedia (PID2020-114584GB-I00), financiado por MCIN/AEI /10.13039/501100011033, con la colaboración de Possible Inc.
 
 Por favor lea el documento README IN SPANISH, en el que se expone todos los pasos a seguir para el uso del algoritmo desarrollado en el marco del proyecto Hatemedia (PID2020-114584GB-I00), financiado por MCIN/ AEI /10.13039/501100011033
 
@@ -85,7 +85,7 @@ Más información:
 - https://www.hatemedia.es/ o contactar con:  elias.said@unir.net
 
 ---
-Algorithm for classifying hate expressions in messages in Spanish. This algorithm was developed within the framework of the Hatemedia project (PID2020-114584GB-I00), funded by MCIN/ AEI /10.13039/501100011033, with the collaboration of Possible Inc.
+Algorithm for detection of hate expressions in Spanish. This algorithm was developed within the framework of the Hatemedia project (PID2020-114584GB-I00), funded by MCIN/ AEI /10.13039/501100011033, with the collaboration of Possible Inc.
 
 Please read README IN SPANISH, which outlines all the steps to follow to use the algorithm developed within the framework of the Hatemedia project (PID2020-114584GB-I00), funded by MCIN/ AEI /10.13039/501100011033
 
