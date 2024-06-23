@@ -30,7 +30,8 @@ Script Python con las funciones de preprocesado utilizadas previamente al uso de
 - Recursos-20231027T110710Z-001 (1).zip:
 La carpeta recursos contiene 3 .csv utilizados en la extracción de características.
 
-El dataset que se ha utilizado para el entrenamiento de los modelos: Said-Hung, Elias; Montero-Diaz, julio; Blanco, Xiomara; Ruiz-Iniesta, Almudena; Pérez Palau, Daniel; De Gregorio Vicente, Oscar; et al. (2024). Dataset usado para entrenamientos de modelos de algoritmos de clasificación de odio, por tipos e intensidades (Dataset used to train hate classification algorithm models by types and intensities). figshare. Dataset. https://doi.org/10.6084/m9.figshare.26085700.v1
+El dataset que se ha utilizado para el entrenamiento de los modelos: 
+- Said-Hung, Elias; Montero-Diaz, julio; Blanco, Xiomara; Ruiz-Iniesta, Almudena; Pérez Palau, Daniel; De Gregorio Vicente, Oscar; et al. (2024). Dataset usado para entrenamientos de modelos de algoritmos de clasificación de odio, por tipos e intensidades (Dataset used to train hate classification algorithm models by types and intensities). figshare. Dataset. https://doi.org/10.6084/m9.figshare.26085700.v1
 
 El Algoritmo se desarrolló, a partir de las pruebas de modelos aplicados que se muestran a continuación:
 
