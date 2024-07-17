@@ -146,7 +146,7 @@ The Algorithm was developed from the tests of applied models shown below:
 
 In folders 70-30, 80-20 and 90-10, we can find the different models already trained with the respective percentages of train and test.
 
-Results and comparisons generated during the training and validation process of the final model used for the development of the algorithm are shared in the document Comparativa_V2.xlsx; y Explicación variación resultados Odio_No odio V2.pdf (Por publicar)
+Results and comparisons generated during the training and validation process of the final model used for the development of the algorithm are shared in the MODELS folder (uploaded on Github) and in the document Comparativa_V2.xlsx (uploaded on GitHub).
 
 The procedure for training the models is reflected in:
 - De Gregorio Vicente, Oscar; Blanco, Xiomara; Ruiz-Iniesta, Almudena; Pérez Palau, Daniel; José Cubillas, Juan; Said-Hung, Elias; et al. (2024). Informe técnico desarrollo de algoritmo de clasificación de odio/no odio en medios informativos digitales españoles en X (Twitter), Facebook y portales web (Technical report development of hate/non-hate classification algorithm in Spanish digital news media on X (Twitter), Facebook and web portals). figshare. Presentation. https://doi.org/10.6084/m9.figshare.26085688.v1
