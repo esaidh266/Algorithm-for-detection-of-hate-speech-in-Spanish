@@ -60,10 +60,9 @@ El Algoritmo se desarrolló, a partir de las pruebas de modelos aplicados que se
 
 En las carpetas 70-30, 80-20 y 90-10 podemos encontrar los distintos modelos ya entrenados con los respectivos porcentajes de train y test.
 
-Se comparte resultados y comparativas generados durante el proceso de entrenamiento y validación de modelo final usado para el desarrollo del algoritmo, en documento Comparativa_V2.xlsx; y Explicación variación resultados Odio_No odio V2.pdf (Por publicar)
+Se comparte resultados y comparativas generados durante el proceso de entrenamiento y validación de modelo final usado para el desarrollo del algoritmo, la carpeta MODELOS (subido en Github), y en documento Comparativa_V2.xlsx (subido en github).
 
-El procedimiento seguido para realizar el entrenamiento de los modelos queda reflejado en:
-- De Gregorio Vicente, Oscar; Blanco, Xiomara; Ruiz-Iniesta, Almudena; Pérez Palau, Daniel; José Cubillas, Juan; Said-Hung, Elias; et al. (2024). Informe técnico desarrollo de algoritmo de clasificación de odio/no odio en medios informativos digitales españoles en X (Twitter), Facebook y portales web (Technical report development of hate/non-hate classification algorithm in Spanish digital news media on X (Twitter), Facebook and web portals). figshare. Presentation. https://doi.org/10.6084/m9.figshare.26085688.v1
+El procedimiento seguido para realizar el entrenamiento de los modelos queda reflejado en el Informe técnico desarrollo de algoritmo de clasificación de odio/no odio en medios informativos digitales españoles en X (Twitter), Facebook y portales web (https://doi.org/10.6084/m9.figshare.26085688.v1).
 
 Autores: 
 - Elias Said-Hung
