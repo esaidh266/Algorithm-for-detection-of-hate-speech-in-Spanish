@@ -79,4 +79,88 @@ El modelo espera datos de entrada con las siguientes especificaciones:
 
 3. **Codificación de etiquetas**:
 - `0` = Sin contenido de odio (incluido contenido neutral/positivo)
+
 - `1` = Incitación al odio
+
+------------
+# Hate Speech Detection Model
+This code implements a hate speech classification system using the RoBERTuito model (a Spanish version of RoBERTa) to detect hate speech in tweets.
+
+## Model Architecture
+
+The model is based on `pysentimiento/robertuito-base-uncased` with the following modifications:
+- A dense classification layer has been added over the base model.
+- It uses input IDs and attention masks as inputs.
+- It generates a binary classification (hate vs. non-hate).
+
+## Datasets
+
+1. **Pre-training Dataset**: Cardiff NLP multilingual tweet sentiment dataset (Spanish part).
+- Converted to binary classification:
+- Negative tweets (original label 0) → Hate (1).
+- Positive tweets (original label 2) → Non-hate (0).
+- Neutral tweets (original label 1) → No hate (0).
+
+2. **HATEMEDIA Dataset**: Custom hate speech dataset.
+- Binary classification:
+- Hate (1).
+- No hate (0).
+
+## Training Process
+
+### Pre-workout
+- Batch size: 16
+- Epochs: 5
+- Learning rate: 2e-5 with 10% warmup steps
+- Early stopping with patience=2
+
+### Fine-tuning
+- Batch size: 128
+- Epochs: 5
+- Learning rate: 2e-5 with 10% warmup steps
+- Early stopping with patience=2
+- Custom metrics: 
+- Recall for non-hate class 
+- Precision for hate class 
+- F1-score (weighted) 
+- AUC-PR 
+- Recall at precision=0.9 (non-hate) 
+- Precision at recall=0.9 (hate)
+
+## Evaluation Metrics
+
+The model is evaluated using:
+- Macro recall, precision, and F1-score
+- One-vs-Rest AUC
+- Accuracy
+- Metrics by class
+- Confusion matrix
+
+## Requirements
+
+The following Python packages are required (see requirements.txt for the full list):
+- TensorFlow
+- Transformers
+- scikit-learn
+- pandas
+- datasets
+- matplotlib
+- seaborn
+
+## Usage
+The model expects input data with the following specifications:
+
+1. **Data Format**:
+- CSV file or Pandas DataFrame
+- Mandatory column name: `text` (type string)
+- Optional column name: `label` (type integer, 0 or 1) if available for evaluation
+
+2. **Text Preprocessing**:
+- Text will be automatically converted to lowercase during processing
+- Maximum length: 128 tokens (longer texts will be truncated)
+- Special characters, URLs, and emojis must remain in the text (the tokenizer handles these)
+
+3. **Label Encoding**:
+- `0` = No hateful content (including neutral/positive content)
+
+- 1 = Hate speech
