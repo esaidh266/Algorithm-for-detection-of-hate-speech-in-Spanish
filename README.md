@@ -82,6 +82,25 @@ El modelo espera datos de entrada con las siguientes especificaciones:
 
 - `1` = Incitación al odio
 
+El proceso de creación de este algoritmo se expone en el informe técnico localizado en: 
+
+Autores: 
+- Elias Said-Hung
+- Julio Montero-Díaz
+- Oscar De Gregorio
+- Almudena Ruiz
+- Xiomara Blanco
+- Juan José Cubillas
+- Daniel Pérez Palau 
+
+Financiado por: 
+MCIN/AEI /10.13039/501100011033
+
+Como citar: Said-Hung, E., Montero-Diaz, J., De Gregorio Vicente, O., Ruiz-Iniesta, A., Blanco Valencia, X., José Cubillas, J., and Pérez Palau, D. (2023), “Algorithm for classifying hate expressions in Spanish”, figshare. https://doi.org/10.6084/m9.figshare.24574906.
+
+Más información:
+- https://www.hatemedia.es/ o contactar con:  elias.said@unir.net
+
 ------------
 # Hate Speech Detection Model
 This code implements a hate speech classification system using the RoBERTuito model (a Spanish version of RoBERTa) to detect hate speech in tweets.
@@ -164,3 +183,22 @@ The model expects input data with the following specifications:
 - `0` = No hateful content (including neutral/positive content)
 
 - 1 = Hate speech
+
+The process of creating this algorithm is explained in the technical report located at:XXXX
+
+Authors:
+- Elias Said-Hung
+- Julio Montero-Díaz
+- Oscar De Gregorio
+- Almudena Ruiz
+- Xiomara Blanco
+- Juan José Cubillas
+- Daniel Pérez Palau
+
+Funded by:
+MCIN/AEI/10.13039/501100011033
+
+How to cites: Said-Hung, E., Montero-Diaz, J., De Gregorio Vicente, O., Ruiz-Iniesta, A., Blanco Valencia, X., José Cubillas, J., and Pérez Palau, D. (2023), “Algorithm for classifying hate expressions in Spanish”, figshare. https://doi.org/10.6084/m9.figshare.24574906.
+
+More information:
+- https://www.hatemedia.es/ or contact: elias.said@unir.net
