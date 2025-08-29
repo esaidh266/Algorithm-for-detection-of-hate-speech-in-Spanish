@@ -82,7 +82,7 @@ El modelo espera datos de entrada con las siguientes especificaciones:
 
 - `1` = Incitación al odio
 
-El proceso de creación de este algoritmo se expone en el informe técnico localizado en: 
+El proceso de creación de este algoritmo se expone en el informe técnico localizado en: Blanco-Valencia, X., De Gregorio-Vicente, O., Ruiz Iniesta, A., & Said-Hung, E. (2025). Algoritmos de detección de odio/no odio, tipo e intensidad – Hatemedia V.2.0 (Version 2). Hatemedia Project. https://doi.org/10.5281/zenodo.16996080
 
 Autores: 
 - Elias Said-Hung
@@ -100,6 +100,8 @@ Como citar: Said-Hung, E., Montero-Diaz, J., De Gregorio Vicente, O., Ruiz-Inies
 
 Más información:
 - https://www.hatemedia.es/ o contactar con:  elias.said@unir.net
+- Este algoritmo está relacionado con el algoritmo de clasificación de expresiones de odio por intensidad en español, desarrollado también por los autores: https://github.com/esaidh266/Algorithm-for-classifying-hate-expressions-by-intensities-in-Spanish
+- Este algoritmo está relacionado con el algoritmo de clasificación de expresiones de odio por tipo en español, desarrollado también por los autores: https://github.com/esaidh266/Algorithm-for-classifying-hate-expressions-by-type-in-Spanish
 
 ------------
 # Hate Speech Detection Model
@@ -184,8 +186,7 @@ The model expects input data with the following specifications:
 
 - 1 = Hate speech
 
-The process of creating this algorithm is explained in the technical report located at:XXXX
-
+The process of creating this algorithm is explained in the technical report located at:Blanco-Valencia, X., De Gregorio-Vicente, O., Ruiz Iniesta, A., & Said-Hung, E. (2025). Algoritmos de detección de odio/no odio, tipo e intensidad – Hatemedia V.2.0 (Version 2). Hatemedia Project. https://doi.org/10.5281/zenodo.16996080
 Authors:
 - Elias Said-Hung
 - Julio Montero-Díaz
@@ -202,3 +203,7 @@ How to cites: Said-Hung, E., Montero-Diaz, J., De Gregorio Vicente, O., Ruiz-Ini
 
 More information:
 - https://www.hatemedia.es/ or contact: elias.said@unir.net
+- This algorithm is related to the algorithm for classifying hate expressions by intensity in Spanish, also developed by the authors: https://github.com/esaidh266/Algorithm-for-classifying-hate-expressions-by-intensities-in-Spanish
+- This algorithm is related to the algorithm for classifying hate expressions by type in Spanish, also developed by the authors: https://github.com/esaidh266/Algorithm-for-classifying-hate-expressions-by-type-in-Spanish
+
+
