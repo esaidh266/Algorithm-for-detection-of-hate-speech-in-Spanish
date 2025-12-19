@@ -187,6 +187,7 @@ The model expects input data with the following specifications:
 - 1 = Hate speech
 
 The process of creating this algorithm is explained in the technical report located at: Blanco-Valencia, X., De Gregorio-Vicente, O., Ruiz Iniesta, A., & Said-Hung, E. (2025). Algoritmos de detección de odio/no odio, tipo e intensidad – Hatemedia. Hatemedia Project. https://doi.org/10.5281/zenodo.17992897
+
 Authors:
 - Elias Said-Hung
 - Julio Montero-Díaz
@@ -199,12 +200,13 @@ Authors:
 Funded by:
 MCIN/AEI/10.13039/501100011033
 
-How to cites: Said-Hung, E., Montero-Diaz, J., De Gregorio Vicente, O., Ruiz-Iniesta, A., Blanco Valencia, X., José Cubillas, J., and Pérez Palau, D. (2023), “Algorithm for classifying hate expressions in Spanish”, figshare. https://doi.org/10.6084/m9.figshare.24574906.
+How to cite: Said-Hung, E., Montero-Diaz, J., De Gregorio Vicente, O., Ruiz-Iniesta, A., Blanco Valencia, X., José Cubillas, J., and Pérez Palau, D. (2023), “Algorithm for classifying hate expressions in Spanish”, figshare. https://doi.org/10.6084/m9.figshare.24574906.
 
 More information:
 - https://www.hatemedia.es/ or contact: elias.said@unir.net
 - This algorithm is related to the algorithm for classifying hate expressions by intensity in Spanish, also developed by the authors: https://github.com/esaidh266/Algorithm-for-classifying-hate-expressions-by-intensities-in-Spanish
 - This algorithm is related to the algorithm for classifying hate expressions by type in Spanish, also developed by the authors: https://github.com/esaidh266/Algorithm-for-classifying-hate-expressions-by-type-in-Spanish
+
 
 
 
